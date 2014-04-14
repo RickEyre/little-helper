@@ -1,0 +1,18 @@
+{
+  "name": "little-helper",
+  "version": "0.0.0",
+  "description": "A comman line utility that automates repetitive tasks that a dev might find themselves doing a lot.",
+  "bin": "bin/little-helper",
+  "keywords": [
+    "helper",
+    "cli",
+    "git",
+    "snippets"
+  ],
+  "author": "Rick Eyre <rick.eyre@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "0.0.8",
+    "async": "0.6.2"
+  }
+}
