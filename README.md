@@ -1,6 +1,8 @@
 little-helper
 =============
 
+[![Build Status](https://travis-ci.org/RickEyre/little-helper.svg?branch=master)](https://travis-ci.org/RickEyre/little-helper) [![npm-version](http://img.shields.io/npm/v/little-helper.svg)](https://www.npmjs.org/package/little-helper) [![Dependency Status](https://david-dm.org/RickEyre/little-helper.svg?theme=shields.io)](https://david-dm.org/RickEyre/little-helper) [![devDependency Status](https://david-dm.org/RickEyre/little-helper/dev-status.svg?theme=shields.io)](https://david-dm.org/RickEyre/little-helper#info=devDependencies)
+
 A command line utility written for `Nodejs` that automates all kinds of
 repetitive tasks that a developer might find themselves doing a lot.
 
