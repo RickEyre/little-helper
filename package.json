@@ -21,6 +21,10 @@
   },
   "devDependencies": {
     "grunt-contrib-jshint": "0.10.0",
-    "grunt-bump": "0.0.13"
+    "grunt-bump": "0.0.13",
+    "grunt-cli": "0.1.13"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/grunt"
   }
 }
