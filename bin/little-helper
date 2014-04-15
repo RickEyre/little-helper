@@ -9,4 +9,4 @@ process.title = "little-helper";
 
 var args = require("minimist")(process.argv.slice(2));
 
-require("../lib/helper")(args);
+require("../lib/git-helper")(args);
