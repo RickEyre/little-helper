@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+// The MIT License (MIT)
+// Copyright (c) little-helper contributors.
+
+"use strict";
+
+process.title = "little-helper";
+
+var args = require("minimist")(process.argv.slice(2));
+
+require("../lib/helper")(args);
