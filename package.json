@@ -3,6 +3,10 @@
   "version": "0.0.3",
   "description": "A comman line utility that automates repetitive tasks that a dev might find themselves doing a lot.",
   "bin": "bin/little-helper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RickEyre/little-helper.git"
+  },
   "keywords": [
     "helper",
     "cli",
