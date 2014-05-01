@@ -31,6 +31,25 @@ against it. Specify the `-o` option to use `origin` as the remote, alternatively
 use `--upstream` to specify the remote. The default remote to use if `-o` and
 `--upstream` are not used is `upstream`.
 
+
+####Default Git Aliases####
+
+Little-helper also manages a bunch of default `git` aliases for you via a
+[git.mappings.json](https://github.com/RickEyre/little-helper/tree/master/assets/mappings/git.mappings.json)
+file. If you'd like more information on how to use those aliases see how `mapping.json`
+files work by reading the [command-mapper documentation](https://github.com/RickEyre/command-mapper#mapping-object).
+
+For example:
+
+```bash
+$ little-helper g d -h2
+```
+
+Would run `git diff HEAD~2`. Better documentation will be coming in the future on how
+this works as well.
+
+There are plans to allow customization of this and more aliases in the future, so stay tuned.
+
 License
 =======
 [MIT](https://github.com/RickEyre/little-helper/blob/master/LICENSE)

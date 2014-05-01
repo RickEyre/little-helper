@@ -17,10 +17,13 @@
   "license": "MIT",
   "dependencies": {
     "minimist": "0.0.8",
-    "async": "0.6.2"
+    "async": "0.6.2",
+    "command-mapper": "0.5.1",
+    "lodash": "2.4.1"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "0.10.0",
+    "grunt-jsonlint": "1.0.4",
     "grunt-bump": "0.0.13",
     "grunt-cli": "0.1.13"
   },

@@ -7,6 +7,4 @@
 
 process.title = "little-helper";
 
-var args = require("minimist")(process.argv.slice(2));
-
-require("../lib/git-helper")(args);
+require("../lib/git-helper")(process.argv.slice(2));

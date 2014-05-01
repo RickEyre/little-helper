@@ -1,0 +1,69 @@
+{
+  "command": "git",
+  "alias": "g",
+  "default": "help",
+  "mappings": [{
+    "command": "fetch",
+    "alias": "f",
+    "default": "upstream master",
+    "formula": "%command% %1% %2% %options%"
+  }, {
+    "command": "rebase",
+    "alias": "r",
+    "default": "master",
+    "always": "-i",
+    "formula": "%command% %1% %always% %options%",
+    "options": {
+      "h": "HEAD~%argument%",
+      "t": "temporary"
+    }
+  }, {
+    "command": "commit",
+    "alias": "c",
+    "default": "-a",
+    "options": {
+      "m": "--amend"
+    }
+  }, {
+    "command": "push",
+    "alias": "p",
+    "formula": "%command% %1% %2% %options%"
+  }, {
+    "command": "pull",
+    "alias": "pu",
+    "formula": "%command% %1% %2% %options%"
+  }, {
+    "command": "diff",
+    "alias": "d",
+    "always": "--color",
+    "options": {
+      "h": "HEAD~%argument%"
+    }
+  }, {
+    "command": "format-patch",
+    "alias": "fp",
+    "always": "-kp -U8",
+    "default": "HEAD~1",
+    "options": {
+      "h": "HEAD~%argument%"
+    }
+  }, {
+    "command": "reset",
+    "alias": "rs",
+    "always": "--hard",
+    "options": {
+      "h": "HEAD~%argument%"
+    }
+  }, {
+    "command": "symbolic-ref",
+    "alias": "bn",
+    "default": "-q --short HEAD"
+  }, {
+    "command": "checkout",
+    "alias": "co",
+    "options": {
+      "t": "-b temporary",
+      "d": "-D temporary"
+    }
+  }]
+}
