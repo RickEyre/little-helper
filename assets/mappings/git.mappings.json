@@ -65,5 +65,11 @@
       "t": "-b temporary",
       "d": "-D temporary"
     }
+  }, {
+    "command": "status",
+    "alias": "s"
+  }, {
+    "command": "log",
+    "alias": "l"
   }]
 }
