@@ -27,11 +27,21 @@
   }, {
     "command": "push",
     "alias": "p",
-    "formula": "%command% %1% %2% %options%"
+    "formula": "%command% %1% %2% %options%",
+    "options": {
+      "o": "origin",
+      "m": "master",
+      "u": "upstream"
+    }
   }, {
     "command": "pull",
     "alias": "pu",
-    "formula": "%command% %1% %2% %options%"
+    "formula": "%command% %1% %2% %options%",
+    "options": {
+      "o": "origin",
+      "m": "master",
+      "u": "upstream"
+    }
   }, {
     "command": "diff",
     "alias": "d",
@@ -71,5 +81,8 @@
   }, {
     "command": "log",
     "alias": "l"
+  }, {
+    "command": "merge",
+    "alias": "m"
   }]
 }
