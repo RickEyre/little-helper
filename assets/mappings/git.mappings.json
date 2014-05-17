@@ -84,5 +84,11 @@
   }, {
     "command": "merge",
     "alias": "m"
+  }, {
+    "command": "branch",
+    "alias": "b"
+  }, {
+    "command": "add",
+    "alias": "a"
   }]
 }
