@@ -5,6 +5,30 @@
 
 "use strict";
 
+var _ = require("lodash"),
+    path = require("path"),
+    CommandMapper = require("command-mapper"),
+    helper = require("../lib/helper"),
+    basePath = "../assets/mappings";
+
 process.title = "little-helper";
 
-require("../lib/git-helper")(process.argv.slice(2));
+var mappingFiles = {
+  g: "git.mappings.json",
+  n: "npm.mappings.json"
+};
+
+var args = process.argv.slice(2),
+    mappingsFile = mappingFiles[args[0]];
+
+// If we don't have a mappings file then assume it's a compund git command
+// since we don't support anything else yet.
+if (!mappingsFile) {
+  return require("../lib/git-helper")(args);
+}
+
+// If we do have a mappings file then try to map the command and run it.
+var mappingsFile = path.resolve(__dirname, path.join(basePath, mappingsFile)),
+    cmd = CommandMapper.map(mappingsFile, args, { asArray: true });
+
+!_.isEmpty(cmd) && helper.spawn(cmd);

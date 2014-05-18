@@ -1,0 +1,27 @@
+{
+  "command": "npm",
+  "alias": "n",
+  "default": "help",
+  "mappings": [{
+    "command": "install",
+    "alias": "i"
+  }, {
+    "command": "uninstall",
+    "alias": "ui"
+  }, {
+    "command": "update",
+    "alias": "u"
+  }, {
+    "command": "prune",
+    "alias": "pr"
+  }, {
+    "command": "publish",
+    "alias": "p"
+  }, {
+    "command": "outdated",
+    "alias": "o"
+  }, {
+    "command": "test",
+    "alias": "t"
+  }]
+}
