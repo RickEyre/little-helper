@@ -18,7 +18,7 @@
   "dependencies": {
     "minimist": "0.0.8",
     "async": "0.6.2",
-    "command-mapper": "0.5.2",
+    "command-mapper": "0.5.3",
     "lodash": "2.4.1"
   },
   "devDependencies": {
