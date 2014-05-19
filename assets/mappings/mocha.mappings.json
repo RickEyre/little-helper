@@ -1,0 +1,12 @@
+{
+  "command": "mocha",
+  "alias": "m",
+  "default": "--reporter spec --ui tdd --recursive test",
+  "formula": "%command% %default% %options% %1%",
+  "options": {
+    "r": "--reporter spec",
+    "u": "--ui tdd",
+    "a": "recursive",
+    "t": "--recursive --reporter spec --ui tdd"
+  }
+}
