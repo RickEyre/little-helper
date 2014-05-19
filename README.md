@@ -50,6 +50,12 @@ this works as well.
 
 There are plans to allow customization of this and more aliases in the future, so stay tuned.
 
+####Other Default Aliases####
+
+There are also now default aliases for `npm` and `mocha`. Check the
+[mappings directory](https://github.com/RickEyre/little-helper/tree/master/assets/mappings)
+for more information and read abovie (git mappings).
+
 License
 =======
 [MIT](https://github.com/RickEyre/little-helper/blob/master/LICENSE)
