@@ -24,6 +24,9 @@
       "m": "--amend"
     }
   }, {
+    "command": "clone",
+    "alias": "cl"
+  }, {
     "command": "push",
     "alias": "p",
     "formula": "%command% %1% %2% %options%",
