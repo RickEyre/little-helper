@@ -1,6 +1,6 @@
 {
   "name": "little-helper",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "A command line utility that automates repetitive tasks that a dev might find themselves doing a lot.",
   "bin": "bin/little-helper",
   "repository": {
