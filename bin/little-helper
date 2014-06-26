@@ -16,7 +16,8 @@ process.title = "little-helper";
 var mappingFiles = {
   g: "git.mappings.json",
   n: "npm.mappings.json",
-  m: "mocha.mappings.json"
+  m: "mocha.mappings.json",
+  h: "hub.mappings.json"
 };
 
 var args = process.argv.slice(2),

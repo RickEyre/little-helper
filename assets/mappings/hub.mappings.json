@@ -1,0 +1,12 @@
+{
+  "command": "hub",
+  "alias": "h",
+  "default": "help",
+  "mappings": [{
+    "command": "pull-request",
+    "alias": "pr"
+  }, {
+    "command": "ci-status",
+    "alias": "ci"
+  }]
+}
