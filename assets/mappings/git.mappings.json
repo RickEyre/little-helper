@@ -14,7 +14,9 @@
     "formula": "%command% %1% %always% %options%",
     "options": {
       "h": "HEAD~%argument%",
-      "t": "temporary"
+      "t": "temporary",
+      "--c": "--continue",
+      "--a": "--abort"
     }
   }, {
     "command": "commit",
